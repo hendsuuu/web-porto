@@ -9,6 +9,7 @@ import {
   SiLaragon,
   SiLaravel,
   SiNextdotjs,
+  SiNodedotjs,
   SiPhp,
   SiPython,
   SiReact,
@@ -32,15 +33,16 @@ export default function TechStack() {
     { icon: SiLaragon, color: "#5c94cfff", title: "Laragon", href: "https://laragon.org" },
     { icon: SiJavascript, color: "#F7DF1E", title: "JavaScript", href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
     { icon: SiPython, color: "#3776AB", title: "Python", href: "https://www.python.org" },
-    { icon: SiCplusplus, color: "#00599C", title: "C++", href: "https://isocpp.org" },
     { icon: SiBootstrap, color: "#7952B3", title: "Bootstrap", href: "https://getbootstrap.com" },
     { icon: SiGithub, color: "#181717", title: "GitHub", href: "https://github.com" },
+    { icon: SiNodedotjs, color: "#65c765ff", title: "Node.js", href: "https://nodejs.org" },
 
   ];
 
   return (
-    <div className="w-full h-full glass-item p-5 rounded-md mt-10">
-      <h2 className="text-xl font-bold mb-6">My Skill</h2>
+    <>
+      <h2 className="text-xl font-bold mb-3">My Skill</h2>
+    <div className="w-full h-full glass-item p-5 rounded-md">
 
       {/* === Grid Cards === */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
@@ -68,5 +70,6 @@ export default function TechStack() {
         })}
       </div>
     </div>
+    </>
   );
 }

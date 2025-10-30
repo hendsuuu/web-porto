@@ -40,12 +40,35 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+html{
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE dan Edge */
+}
+
 body {
   font-family: var(--font-poppins), sans-serif;
   font-family: var(--font-montserrat), sans-serif;
-
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+@keyframes colorFlash {
+  0%   { background-color: #ff0057; }
+  10%  { background-color: #ff9a00; }
+  20%  { background-color: #fffb00; }
+  30%  { background-color: #00ff00; }
+  40%  { background-color: #00ffff; }
+  50%  { background-color: #0066ff; }
+  60%  { background-color: #8c00ff; }
+  70%  { background-color: #ff00c8; }
+  80%  { background-color: #ff0044; }
+  90%  { background-color: #00ffcc; }
+  100% { background-color: #ff0057; }
 }
 
+.bg-flash {
+  animation: colorFlash 0.3s linear infinite; /* ubah 0.8s → 0.3s untuk super cepat */
+}
 .bg-primary {
   background-color: var(--color-primary);
   color: white;
