@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import {  Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
-import PixelBlast from "@/components/PixelBlast";
 import { Toaster } from "react-hot-toast";
 
 const poppins = Poppins({
