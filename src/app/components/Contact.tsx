@@ -76,27 +76,34 @@ export default function Contact() {
 
       <div className="flex flex-col gap-3">
         <input
-          type="email"
-          placeholder="Your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="w-full p-3 rounded-md bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-sky-400"
-        />
+  type="email"
+  placeholder="Your email"
+  value={email}
+  onChange={(e) => setEmail(e.target.value)}
+  className="w-full p-3 rounded-md bg-white/10 border border-white/20 text-white placeholder-gray-400
+  focus:outline-none focus:border-sky-400 focus:bg-white/15
+  caret-white transition cursor-default"
+/>
 
-        <input
-          type="text"
-          placeholder="Subject"
-          value={subject}
-          onChange={(e) => setSubject(e.target.value)}
-          className="w-full p-3 rounded-md bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-sky-400"
-        />
+<input
+  type="text"
+  placeholder="Subject"
+  value={subject}
+  onChange={(e) => setSubject(e.target.value)}
+  className="w-full p-3 rounded-md bg-white/10 border border-white/20 text-white placeholder-gray-400
+  focus:outline-none focus:border-sky-400 focus:bg-white/15
+  caret-white transition cursor-default"
+/>
 
-        <textarea
-          placeholder="Your message..."
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          className="w-full h-32 p-3 rounded-md bg-white/10 border border-white/20 text-white placeholder-gray-400 resize-none focus:outline-none focus:border-sky-400"
-        ></textarea>
+<textarea
+  placeholder="Your message..."
+  value={message}
+  onChange={(e) => setMessage(e.target.value)}
+  className="w-full h-32 p-3 rounded-md bg-white/10 border border-white/20 text-white placeholder-gray-400
+  resize-none focus:outline-none focus:border-sky-400 focus:bg-white/15
+  caret-white transition cursor-default"
+/>
+
 
         <button
           onClick={handleSendEmail}

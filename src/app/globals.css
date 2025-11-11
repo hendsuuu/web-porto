@@ -53,6 +53,8 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
+
 @keyframes colorFlash {
   0%   { background-color: #ff0057; }
   10%  { background-color: #ff9a00; }
