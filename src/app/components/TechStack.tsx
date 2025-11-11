@@ -10,12 +10,15 @@ import {
   SiJenkins,
   SiLaragon,
   SiLaravel,
+  SiLooker,
+  SiNetlify,
   SiNextdotjs,
   SiNginx,
   SiNodedotjs,
   SiPhp,
   SiPython,
   SiReact,
+  SiTableau,
   SiTailwindcss,
   SiTensorflow,
   SiTypescript,
@@ -43,6 +46,9 @@ export default function TechStack() {
     { icon: SiUbuntu, color: "#E95420", title: "Ubuntu", href: "https://ubuntu.com" },
     { icon: SiJenkins, color: "#D24939", title: "Jenkins", href: "https://www.jenkins.io" },
     { icon: SiApache, color: "#D22128", title: "Apache", href: "https://httpd.apache.org" },
+    { icon: SiNetlify, color: "#00C7B7", title: "Netlify", href: "https://www.netlify.com" },
+    { icon: SiLooker, color: "#4285F4", title: "Looker", href: "https://looker.com" },
+    { icon: SiTableau, color: "#E97627", title: "Tableau", href: "https://www.tableau.com" },
   ];
 
   return (

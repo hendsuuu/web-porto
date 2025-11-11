@@ -20,9 +20,9 @@ export default function Experience() {
             logo: "/indosat.png",
             description: "Data Analyst Intern • July – Dec 2024",
             tasks: [
-            "Analyzed competitor data and built a market share dashboard using Tableau.",
-            "Developed market trend prediction models using Python and Pandas.",
-            "Presented weekly insights and findings to the business team.",
+            "Analyzed competitor data and built a market share dashboard using Laravel Fillament.",
+            "Developed market trend analysis using Python and Pandas.",
+            "Presented insights and findings to the business team.",
             ],
         },
         {
@@ -31,7 +31,7 @@ export default function Experience() {
             logo: "/bps.png",
             description: "Web Developer & Data Entry Intern • Jul – Aug 2024",
             tasks: [
-            "Developed a Laravel-based survey data input system.",
+            "Developed a CodeIgniter-based employee permission and survey tracking system.",
             "Performed data validation and cleaning for statistical publication datasets.",
             "Supported the internal web development team in improving the organization's website.",
             ],
