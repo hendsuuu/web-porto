@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, useInView } from "framer-motion";
+import { easeInOut, motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 interface FadeInWhenVisibleProps {
@@ -28,7 +28,7 @@ export default function FadeInWhenVisible({
       opacity: 1,
       x: 0,
       y: 0,
-      transition: { duration: 0.6, delay, ease: "easeOut" },
+      transition: { duration: 0.6, delay, easeInOut},
     },
   };
 

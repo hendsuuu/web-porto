@@ -43,6 +43,7 @@
 html{
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE dan Edge */
+  scroll-behavior: smooth;
 }
 
 body {

@@ -152,7 +152,7 @@ const AnimatedList: React.FC<AnimatedListProps> = ({
   }, [selectedIndex, keyboardNav]);
 
   return (
-    <div className={`relative w-[500px] ${className}`}>
+    <div className={`relative w-[500px] p-5 ${className}`}>
       <div
         ref={listRef}
         className={`max-h-[350px] overflow-y-auto p-4 ${
@@ -212,7 +212,7 @@ const AnimatedList: React.FC<AnimatedListProps> = ({
       {showGradients && (
         <>
           <div
-            className="absolute top-0 left-0 right-0 h-[50px] rounded-xl bg-gradient-to-b from-[rgba(255,255,255,0.15)] to-transparent pointer-events-none transition-opacity duration-300 ease"
+            className="absolute top-0 left-0 right-0 h-[100px] rounded-xl bg-gradient-to-b from-[rgba(255,255,255,0.15)] to-transparent pointer-events-none transition-opacity duration-300 ease"
             style={{ opacity: topGradientOpacity }}
           ></div>
           <div
