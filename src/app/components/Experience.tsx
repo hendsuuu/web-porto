@@ -9,9 +9,9 @@ export default function Experience() {
             logo: "/hwp.png",
             description: "Data & System • Oct 2025 – Present",
             tasks: [
-            "Developed a survey data input system using Laravel.",
-            "Handled data entry in the Quality Control department for production analysis purposes.",
+            "Developed a QIP App to support quality inspection processes using Laravel.",
             "Fixed bugs and performed ongoing system maintenance.",
+            "Handled data entry in the Quality Control department for production analysis purposes.",
             ],
         },
         {
