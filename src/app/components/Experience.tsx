@@ -3,62 +3,63 @@ import Image from "next/image";
 
 export default function Experience() {
   const items = [
-    {
-      id: 1,
-      company: "PT. Hwaseung Indonesia 2 Pati",
-      logo: "/hwp.png",
-      description: "Data & System • Oct 2025 – Now",
-      tasks: [
-        "Mengembangkan sistem input data survei berbasis Laravel.",
-        "Input Data pada bagian Quality Control untuk keperluan analisis produksi.",
-        "Fix Bug dan maintenance sistem yang berjalan.",
-      ],
-    },
-    {
-      id: 2,
-      company: "Indosat Ooredoo Hutchison",
-      logo: "/indosat.png",
-      description: "Data Analyst Intern • July – Dec 2024",
-      tasks: [
-        "Menganalisis data kompetitor dan membuat dashboard market share dengan Tableau.",
-        "Mengembangkan model prediksi tren pasar menggunakan Python & Pandas.",
-        "Mempresentasikan insight mingguan kepada tim bisnis.",
-      ],
-    },
-    {
-      id: 3,
-      company: "BPS Kota Semarang",
-      logo: "/bps.png",
-      description: "Web Developer & Data Entry Intern • Jul – Aug 2024",
-      tasks: [
-        "Mengembangkan sistem input data survei berbasis Laravel.",
-        "Melakukan validasi data dan cleaning dataset untuk publikasi statistik.",
-        "Mendukung tim pengembangan website internal BPS.",
-      ],
-    },
-    {
-      id: 4,
-      company: "Bangkit Academy by Google",
-      logo: "/bangkit.png",
-      description: "Machine Learning Cohort • Feb – Jul 2024",
-      tasks: [
-        "Membangun model LSTM untuk klasifikasi produk dalam aplikasi finansial Gen-Z.",
-        "Melatih model di TensorFlow dan melakukan evaluasi performa model.",
-        "Berkolaborasi dengan tim Mobile & Cloud dalam capstone project untuk membuat aplikasi Pencatat Keuangan untuk Gen-Z.",
-      ],
-    },
-    {
-      id: 5,
-      company: "Dinus Open Source Community",
-      logo: "/dsc.jpeg",
-      description: "Koordinator Divisi Pemrograman • Jun 2023 – Jun 2024",
-      tasks: [
-        "Mengadakan pelatihan rutin tentang pengembangan skill pemrograman untuk anggota komunitas.",
-        "Mendukung pengembangan proyek open source oleh anggota komunitas.",
-        "Penanggung jawab setiap kegiatan divisi pemrograman.",
-      ],
-    },
-  ];
+        {
+            id: 1,
+            company: "PT. Hwaseung Indonesia 2 Pati",
+            logo: "/hwp.png",
+            description: "Data & System • Oct 2025 – Present",
+            tasks: [
+            "Developed a survey data input system using Laravel.",
+            "Handled data entry in the Quality Control department for production analysis purposes.",
+            "Fixed bugs and performed ongoing system maintenance.",
+            ],
+        },
+        {
+            id: 2,
+            company: "Indosat Ooredoo Hutchison",
+            logo: "/indosat.png",
+            description: "Data Analyst Intern • July – Dec 2024",
+            tasks: [
+            "Analyzed competitor data and built a market share dashboard using Tableau.",
+            "Developed market trend prediction models using Python and Pandas.",
+            "Presented weekly insights and findings to the business team.",
+            ],
+        },
+        {
+            id: 3,
+            company: "BPS Kota Semarang",
+            logo: "/bps.png",
+            description: "Web Developer & Data Entry Intern • Jul – Aug 2024",
+            tasks: [
+            "Developed a Laravel-based survey data input system.",
+            "Performed data validation and cleaning for statistical publication datasets.",
+            "Supported the internal web development team in improving the organization's website.",
+            ],
+        },
+        {
+            id: 4,
+            company: "Bangkit Academy by Google",
+            logo: "/bangkit.png",
+            description: "Machine Learning Cohort • Feb – Jul 2024",
+            tasks: [
+            "Built an LSTM model for product classification in a Gen-Z financial management app.",
+            "Train and evaluate models using TensorFlow to optimize performance.",
+            "Collaborate with Mobile and Cloud teams on a capstone project for a financial tracking application.",
+            ],
+        },
+        {
+            id: 5,
+            company: "Dinus Open Source Community",
+            logo: "/dsc.jpeg",
+            description: "Programming Division Coordinator • Jun 2023 – Jun 2024",
+            tasks: [
+            "Organized regular training sessions to improve members’ programming skills.",
+            "Supported the development of open-source projects by community members.",
+            "Lead and managed all activities under the Programming Division.",
+            ],
+        },
+    ];
+
 
   return (
     <>
