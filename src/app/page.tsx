@@ -24,7 +24,7 @@ export default function Home() {
         {/* ========================== */}
         {/* Main content */}
         {/* ========================== */}
-        <main className="flex-1 md:ml-[40vh] flex flex-col items-center py-20 px-6 sm:px-10 md:px-16 sm:items-start">
+        <main className="flex-1 md:ml-[40vh] flex flex-col items-center py-24 px-6 sm:px-10 md:px-16 sm:items-start">
           
           {/* 👇 Foto hanya muncul di HP */}
           <div className="block md:hidden mb-8 flex flex-col items-center">
@@ -133,14 +133,14 @@ export default function Home() {
           {/* Section lainnya */}
           <div className="w-full">
           <FadeInWhenVisible direction="up" delay={0.3}>
-          <section className="w-full mt-10" id="experience">
+          <section className="w-full mt-5" id="experience">
             <Experience />
           </section>
           </FadeInWhenVisible>
           </div>
           <div className="w-full">
           <FadeInWhenVisible direction="up" delay={0.3}>
-          <section className="w-full mt-5 mb-10" id="skills">
+          <section className="w-full mt-5" id="skills">
             <TechStack />
           </section>
           </FadeInWhenVisible>
@@ -148,14 +148,14 @@ export default function Home() {
           <div className="w-full">
 
           <FadeInWhenVisible direction="up" delay={0.3}>
-          <section className="w-full mt-5 mb-10" id="projects">
+          <section className="w-full mt-5" id="projects">
             <Project />
           </section>
           </FadeInWhenVisible>
           </div>
           <div className="w-full">
           <FadeInWhenVisible direction="up" delay={0.3}>
-          <section className="w-full mt-5 mb-10" id="contact">
+          <section className="w-full mt-5" id="contact">
             <Contact />
           </section>
           </FadeInWhenVisible>
