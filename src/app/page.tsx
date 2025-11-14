@@ -14,9 +14,6 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col md:flex-row min-h-screen bg-primary bg-opacity-90 relative z-10">
-        {/* ========================== */}
-        {/* Sidebar hanya tampil di desktop */}
-        {/* ========================== */}
         <div className="hidden md:block">
           <Sidebar />
         </div>
